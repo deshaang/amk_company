@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+
+    <!-- Подключение CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header">
+    <div class="container nav">
+
+        <div class="logo">COLLEGE</div>
+
+        <nav class="menu">
+            <a href="#">Главная</a>
+            <a href="#programs">Специальности</a>
+            <a href="#admission">Поступление</a>
+            <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav-actions">
+            <button class="btn small">Расписание</button>
+            <button id="themeToggle">🌙</button>
+        </div>
+
+    </div>
+</header>
+
+
+<!-- ================= HERO ================= -->
+<section class="hero container">
+
+    <h1>Современный колледж будущего</h1>
+    <p>Начни карьеру в IT, дизайне и инженерии</p>
+
+    <div class="status">Приёмная комиссия: идёт приём документов</div>
+
+    <div class="hero-buttons">
+        <button class="btn">Подать заявление</button>
+        <button class="btn outline">Выбрать специальность</button>
+    </div>
+
+</section>
+
+
+<!-- ================= PROGRAMS ================= -->
+<section id="programs" class="container section">
+
+    <h2>Специальности</h2>
+
+    <!-- Фильтр -->
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">Все</button>
+        <button class="filter-btn" data-filter="it">IT</button>
+        <button class="filter-btn" data-filter="design">Дизайн</button>
+    </div>
+
+    <!-- Карточки -->
+    <div class="grid">
+
+        <div class="card" data-category="it">
+            <h3>Программирование</h3>
+            <p>3 года обучения</p>
+            <span>JavaScript, Python</span>
+        </div>
+
+        <div class="card" data-category="design">
+            <h3>Графический дизайн</h3>
+            <p>2.5 года</p>
+            <span>Figma, UI/UX</span>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+<section class="stats">
+
+    <div class="container stats-grid">
+
+        <div>
+            <h3 class="counter" data-target="95">0</h3>
+            <p>% трудоустройства</p>
+        </div>
+
+        <div>
+            <h3 class="counter" data-target="20">0</h3>
+            <p>лабораторий</p>
+        </div>
+
+        <div>
+            <h3 class="counter" data-target="50">0</h3>
+            <p>партнёров</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= STEPS ================= -->
+<section id="admission" class="container section">
+
+    <h2>Как поступить</h2>
+
+    <div class="steps">
+        <div>1. Подать заявку</div>
+        <div>2. Сдать тест</div>
+        <div>3. Собеседование</div>
+        <div>4. Зачисление</div>
+    </div>
+
+</section>
+
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="container section">
+
+    <h2>FAQ</h2>
+
+    <div class="faq-item">
+        <h4>Как подать документы?</h4>
+        <p>Онлайн через сайт</p>
+    </div>
+
+    <div class="faq-item">
+        <h4>Есть ли гранты?</h4>
+        <p>Да, государственные</p>
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+
+    <p>Алматы, Казахстан</p>
+    <p>+7 777 000 00 00</p>
+    <p>© 2026 College</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
